@@ -13,12 +13,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 const port = process.env.PORT || 4000;
 
-require("express-async-errors");
+/* require("express-async-errors");
 const io = require("socket.io")(4080, {
   cors: {
     origin: "http://localhost:5173",
   },
-});
+}); */
 
 /* const mysqlPool = require("./database/config"); */
 
